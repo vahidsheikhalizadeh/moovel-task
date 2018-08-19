@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		39CDFAC9211EEB0C0070839E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CDFAC8211EEB0C0070839E /* AppDelegate.swift */; };
-		39CDFACB211EEB0C0070839E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CDFACA211EEB0C0070839E /* ViewController.swift */; };
 		39CDFACE211EEB0C0070839E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CDFACC211EEB0C0070839E /* Main.storyboard */; };
 		39CDFAD0211EEB0D0070839E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CDFACF211EEB0D0070839E /* Assets.xcassets */; };
 		39CDFAD3211EEB0D0070839E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CDFAD1211EEB0D0070839E /* LaunchScreen.storyboard */; };
+		39CDFADC211EEB4F0070839E /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CDFADA211EEB4F0070839E /* DataCell.swift */; };
+		39CDFADD211EEB4F0070839E /* DataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CDFADB211EEB4F0070839E /* DataCell.xib */; };
+		39CDFAE0211EED4E0070839E /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CDFADF211EED4E0070839E /* UsersViewController.swift */; };
+		39CDFAEA212706F00070839E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CDFAE9212706F00070839E /* DetailViewController.swift */; };
+		DC43DC3E169880EC3E33AFA6 /* Pods_moovel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682BDC3044E1FF43781D3676 /* Pods_moovel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01AF4C94D67749FDD7604D96 /* Pods-moovel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moovel.release.xcconfig"; path = "Pods/Target Support Files/Pods-moovel/Pods-moovel.release.xcconfig"; sourceTree = "<group>"; };
 		39CDFAC5211EEB0C0070839E /* moovel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moovel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CDFAC8211EEB0C0070839E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39CDFACA211EEB0C0070839E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39CDFACD211EEB0C0070839E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39CDFACF211EEB0D0070839E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39CDFAD2211EEB0D0070839E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39CDFAD4211EEB0D0070839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39CDFADA211EEB4F0070839E /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		39CDFADB211EEB4F0070839E /* DataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataCell.xib; sourceTree = "<group>"; };
+		39CDFADF211EED4E0070839E /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		39CDFAE9212706F00070839E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		43328678C1D6792272D9B3C5 /* Pods-moovel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moovel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moovel/Pods-moovel.debug.xcconfig"; sourceTree = "<group>"; };
+		682BDC3044E1FF43781D3676 /* Pods_moovel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moovel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC43DC3E169880EC3E33AFA6 /* Pods_moovel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				39CDFAC7211EEB0C0070839E /* moovel */,
 				39CDFAC6211EEB0C0070839E /* Products */,
+				AE5EC961051535A292476184 /* Pods */,
+				70A2F26D9FD30254D12B897F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,73 @@
 			isa = PBXGroup;
 			children = (
 				39CDFAC8211EEB0C0070839E /* AppDelegate.swift */,
-				39CDFACA211EEB0C0070839E /* ViewController.swift */,
-				39CDFACC211EEB0C0070839E /* Main.storyboard */,
-				39CDFACF211EEB0D0070839E /* Assets.xcassets */,
-				39CDFAD1211EEB0D0070839E /* LaunchScreen.storyboard */,
+				39CDFAE4211F10EB0070839E /* mdoel */,
+				39CDFAE6211F11110070839E /* view */,
+				39CDFAE5211F10F30070839E /* controller */,
+				39CDFAE3211F10D70070839E /* supporting files */,
 				39CDFAD4211EEB0D0070839E /* Info.plist */,
 			);
 			path = moovel;
+			sourceTree = "<group>";
+		};
+		39CDFADE211EEB640070839E /* DataCell */ = {
+			isa = PBXGroup;
+			children = (
+				39CDFADA211EEB4F0070839E /* DataCell.swift */,
+				39CDFADB211EEB4F0070839E /* DataCell.xib */,
+			);
+			path = DataCell;
+			sourceTree = "<group>";
+		};
+		39CDFAE3211F10D70070839E /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				39CDFAD1211EEB0D0070839E /* LaunchScreen.storyboard */,
+				39CDFACF211EEB0D0070839E /* Assets.xcassets */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
+		39CDFAE4211F10EB0070839E /* mdoel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mdoel;
+			sourceTree = "<group>";
+		};
+		39CDFAE5211F10F30070839E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				39CDFADF211EED4E0070839E /* UsersViewController.swift */,
+				39CDFAE9212706F00070839E /* DetailViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		39CDFAE6211F11110070839E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				39CDFADE211EEB640070839E /* DataCell */,
+				39CDFACC211EEB0C0070839E /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		70A2F26D9FD30254D12B897F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				682BDC3044E1FF43781D3676 /* Pods_moovel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE5EC961051535A292476184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43328678C1D6792272D9B3C5 /* Pods-moovel.debug.xcconfig */,
+				01AF4C94D67749FDD7604D96 /* Pods-moovel.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39CDFAD7211EEB0D0070839E /* Build configuration list for PBXNativeTarget "moovel" */;
 			buildPhases = (
+				73A4E123B1DF4D82710B6E6E /* [CP] Check Pods Manifest.lock */,
 				39CDFAC1211EEB0C0070839E /* Sources */,
 				39CDFAC2211EEB0C0070839E /* Frameworks */,
 				39CDFAC3211EEB0C0070839E /* Resources */,
+				F7CB7267D25BF34B44FE6A50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +200,70 @@
 				39CDFAD3211EEB0D0070839E /* LaunchScreen.storyboard in Resources */,
 				39CDFAD0211EEB0D0070839E /* Assets.xcassets in Resources */,
 				39CDFACE211EEB0C0070839E /* Main.storyboard in Resources */,
+				39CDFADD211EEB4F0070839E /* DataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73A4E123B1DF4D82710B6E6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moovel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7CB7267D25BF34B44FE6A50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-moovel/Pods-moovel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moovel/Pods-moovel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39CDFAC1211EEB0C0070839E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CDFACB211EEB0C0070839E /* ViewController.swift in Sources */,
+				39CDFAE0211EED4E0070839E /* UsersViewController.swift in Sources */,
+				39CDFADC211EEB4F0070839E /* DataCell.swift in Sources */,
 				39CDFAC9211EEB0C0070839E /* AppDelegate.swift in Sources */,
+				39CDFAEA212706F00070839E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +405,7 @@
 		};
 		39CDFAD8211EEB0D0070839E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43328678C1D6792272D9B3C5 /* Pods-moovel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +423,7 @@
 		};
 		39CDFAD9211EEB0D0070839E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01AF4C94D67749FDD7604D96 /* Pods-moovel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
